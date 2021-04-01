@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<title>Sen.tours & travels</title>
+				<link rel="icon" href="10.jpeg">			
+<style>
+    	 *{
+		      margin:0;
+		      padding:0;
+		      }			
+	.header  {
+           width:100%;
+           height:500px;
+           position:relative;        
+           }			
+.header img {
+             width:100%;
+             height:500px;            
+            		position:relative;
+            		top:0px;
+            		z-index:9;            
+            		}
+                 		
+.overlay    { width:960px;
+              height:100px;       
+              position:absolute;
+              display:flex;
+              top:0;
+              left:0;
+              right:0;
+              bottom:0;
+              margin:0 auto;
+              z-index:10;                                          
+              background-color:rgba(0,0,0,.60);                
+              }			
+     .logo {
+            width:260px;
+            height:100px;
+            color:#baff00; 
+            font-family:cursive;
+            line-height:100px;
+            text-align:center;
+          }             
+.menu     {
+           width:700px;
+           height:100px; 
+           }
+.menu ul {
+          display:flex;
+          list-style:none;   
+          justify-content:flex-end;
+          }
+.menu ul li{}                  
+ 	     
+.menu ul li a{
+              color:white;
+              padding-right:15px;
+              text-decoration:none;  
+              line-height:100px;  
+              padding:15px; 
+              Border-radius:10px;                   
+              }	
+.menu ul li a:hover{ 
+              background-color:#d43d00;
+				transition:all linear 0.3s;}                
+.part  	     {
+              width:100%;
+              height:300px;
+              background:#95f5ff;
+              display:flex;
+              }     
+.part1       {
+             width:50%;
+             height:300px;
+             background:#93c47d;
+             }				
+.part2      {
+             width:50%;
+             height:300px;
+             background:#66cc99;
+             }				
+.bpart      {
+             width:100%;
+             height:300px;
+             background:#ff2a4a;
+             display:flex;
+             }
+.part3      {
+             width:50%;
+             height:300px;
+             background:#ffc800;
+             }
+.part4      {
+             width:50%;
+             height:300px;
+             background:#ff9315; 
+             }            
+.box1       {
+             width:300px; 
+             height:300px;
+             margin:20px auto;
+             text-align:center;
+            }
+.box1 img {
+          width:100px;
+          height:100px;
+          Border-radius:50%;
+          }
+h2  {
+     font-size:30px;
+     font-family:open sens,sen-sarif;
+     color:white;
+     padding-top:20px;
+     }
+p  {
+    color:white;
+    }
+
+.box2       {
+             width:300px; 
+             height:300px;
+             margin:20px auto;
+             text-align:center;
+            }
+.box2 img {
+          width:100px;
+          height:100px;
+          Border-radius:50%;
+          }  
+.box3       {
+             width:300px; 
+             height:300px;
+             margin:20px auto;
+             text-align:center;
+            }
+.box3 img {
+          width:100px;
+          height:100px;
+          Border-radius:50%;
+          }          
+.box4       {
+             width:300px; 
+             height:300px;
+             margin:20px auto;
+             text-align:center;
+            }
+.box4 img {
+          width:100px;
+          height:100px;
+          Border-radius:50%;
+          }          
+.partc {
+         width:100%;
+         height:600px;
+         background:white;
+         }
+.partc_area {         
+         width:960px;
+         height:600px;
+         margin:0 auto;
+         display:flex;
+         }
+.partc1  {
+         width:480px;
+         height:600px;
+         text-align:center;     
+         }  
+.partc1 p { 
+           color:black;
+           padding-top:40px;
+           line-height:30px;
+           font-size:20px;
+           text-align:justify;
+           padding-right:10px;
+           }   
+.partc1 a {
+           padding:15px;
+           background:#ff5415;
+           color:white;
+           Border-radius:10px;
+           text-decoration:none;
+           }                   
+.partc1 a:hover{ 
+              background-color:#7fff83;
+				transition:all linear 0.3s;}                                  
+.partc2  {
+         width:480px;
+         height:600px;        
+         }    
+ h3 { font-size:50px;
+font-family:cursive;
+color:#ff95aa;}
+.content1 {
+           width:480px;
+           height:200px;
+           text-align:center;
+           padding-left:20px;
+           } 
+.content1 p { font-size:18px;
+color:black;
+}
+.content2  {
+           width:480px;
+           height:200px;
+           text-align:center;
+           padding-left:20px;          
+           }
+.content2 p { color:black;
+font-size:20px;}
+.content3   {
+            width:480px;
+            height:200px;
+            text-align:center;
+            padding-left:20px;
+           }
+.content3 p { font-size:20px;
+color:black;}
+h4{ font-size:25px;}
+.partd   {
+          width:100%;
+          height:350px;
+          background:#ffa815;
+          }
+.partd_area  {
+              width:960px;
+              height:350px;
+              display:flex;
+              }
+.partd1      {
+             width:320px;
+             height:350px;      
+             padding-top:15px;    
+             padding-left:20px;   
+             }
+.partd1 img {
+             width:300px;
+             height:320px;
+             }             
+.partd2      {
+             width:320px;
+             height:350px; 
+             padding-top:15px;    
+             padding-left:20px;                          
+             }     
+            
+.partd2 img {
+             width:300px;
+             height:320px;
+             }                   
+.partd3      {
+             width:320px;
+             height:350px; 
+             padding-top:15px;    
+             padding-left:20px;                          
+             }             
+.partd3 img {
+             width:300px;
+             height:320px;            
+             }
+.last_part {
+            width:100%;
+            height:350px;
+            background:#000d31;
+            }
+.last_part_area {
+                width:960px;
+                height:350px;             
+                margin:0 auto;
+                display:flex;
+                }                       
+.about   {
+          width:320px;
+          height:350px;   
+          padding-top:30px;
+          padding-right:20px;
+          padding-left:10px;            
+          }            				        
+h5      {
+         font-size:20px;
+         color:white;
+         text-align:center;
+         }
+.about p {
+          text-align:justify;
+          color:#ffeabf;
+          }   
+.about a {
+          justify-content:center;
+          padding:15px;
+          background:red;
+          color:white;
+          Border-radius:10px;
+          text-decoration:none;
+          }
+.about a:hover{ 
+              background-color:#7fff83;
+				transition:all linear 0.3s;}                                
+.letest  {
+          width:320px;
+          height:350px;
+          padding-top:30px;
+          padding-right:20px;
+          padding-left:10px; 
+          }
+.letest p {
+          text-align:justify;
+          color:#ffeabf;
+          }   
+.from_part  {
+          width:320px;
+          height:350px;       
+          padding-top:30px;
+          padding-right:20px;
+          padding-left:20px; 
+          text-align:justify;
+          }
+ form { padding-top:10px;}   
+ .from_part a {         
+          padding:10px;
+          background-color:#d42c22;
+          Border-radius:10px;
+          text-decoration:none;
+          color:white;
+          }
+.from_part a:hover{ 
+              background-color:#5863d4;
+				transition:all linear 0.3s;}                    
+</style>		
+</head>
+<body>
+		<div class="header">
+    <img src="2.jpeg" alt="banner">
+   <div class="overlay">
+   			<div class="logo"><h1><b>Sen.Tours & Travels</b></h1></div>
+   			<div class="menu">
+   						<ul>
+											<li><a href="#" target="blank">Home</a></li>
+											<li><a href="#">aboutus</a></li>
+											<li><a href="#">services</a></li>
+											<li><a href="#">portfolio</a></li>
+												<li><a href="#">Contact</a></li>
+									</ul>
+   			</div>
+   			</div>
+   			</div>
+   </div>
+		</div>
+<!-- end of header and banner -->
+	<div class="part">
+					<div class="part1">
+							<div class="box1">
+										<img src="3.jpg" alt="icon">
+										<h2> ENJOY YOUR VACATION WITH US</h2>
+										<p> For enjoying a save and amazing tour with us</p>
+							</div>		
+					</div>
+					<div class="part2">
+								<div class="box2">
+											<img src="4.jpg" alt="map">
+											<h2>DISCOVER THE PLACES YOU'VE NEVER BEEN BEFORE </h2>
+											<p> We are trying to discover something new</p>
+								</div>			
+					</div>						
+	</div>
+	<!-- end of part -->
+	
+	<div class="bpart">
+				<div class="part3">
+					 <div class="box3">
+					 			<img src="5.jpeg" alt="nongor">	
+					 			<h2>TRAVEL OPERATORS JUST FOR YOU</h2>
+					 			<p> Travel Oparetors wait for your service</p>
+					 </div>			
+				</div>
+				<div class="part4">
+							<div class="box4">
+										<img src="6.png" alt="boat">
+										<h2> WHAT'S YOUR STYLE</h2>
+										<p> Which kind of journey would you like.We have erery kind of service for you</p>
+							</div>
+				</div>
+	</div>	
+<!-- end of bpart -->				
+<div class="partc">
+<div class="partc_area">
+			<div class="partc1">
+							<h3>		
+											<br>				
+							Journey specific information & advice</h3>
+						<p> you will get journey specific information and advice to our office website. To enjoy a peaceful and safe journey sty with us.Our operators try to give the travellers best service.You would not get any wrong information from ase.</p>	
+						<br>
+						<br>
+						<a href="#">Learn more</a>			
+			</div>
+			<div class="partc2">
+					<div class="content1">
+								<h4> 
+												<br>
+												<br>Visit Cox’s Bazar at a low cost</h4>
+					<p>  <u>Period on 03 march 2021 in travel by train </u></p>
+					</div>
+					<div class="content2">
+								<h4><br>
+							Visit Sajek valley to see the amazing beauty of clouds & Mountain</h4>
+						<p><u>Period on 14 march 2021 in travel by bus </u></p>
+					</div>
+					<div class="content3">
+						<h4> <br>
+								<br>Visit Sylhet to enjoy the beauty of green tea gardens, fountains & Mountain</h4>
+						<p><u>Period on 26 march 2021 in travel by bus </u></p>		
+					</div>
+			</div>
+</div>				
+</div>
+		<!-- end of partc -->
+<div class="partd">
+		<div class="partd_area">
+				 <div class="partd1">
+				 			<img src="7.jpeg" alt="beach">
+				 </div>	
+				 <div class="partd2">
+				 			<img src="8.jpeg" alt="sajek">
+				 </div>		
+				 <div class="partd3">
+				 			<img src="9.jpeg" alt="sylhet">
+				 </div>
+		</div>
+</div>		
+<!-- end of partd -->
+<div class="last_part">
+			<div class="last_part_area">
+					<div class="about">
+								<h5>About Us</h5>
+								<br>
+								<br>
+							<p>Since 2010, <u><b>sen tour & travels</b></u> has been committed to bringing our clients the best in value and quality travel arrangements. We are passionate about travel and sharing the world's wonders on the leisure travel side, and providing corporate travelers hi-touch services to facilitate their business travel needs. </p>
+							<br>
+							<br>
+						<a href="#">Read more</a>
+					</div>		
+					<div class="letest">
+								<h5>Popular Activists</h5>
+								<br>
+								<br>
+								<p> The best Cox's Bazar vacation package-2021. 2day & 3night package only BDT-8000/- 
+								<br>
+								-------------------------------------------------------------</p>
+								<br>
+								<p> The best sajek vacation package-2021. 2day & 3night package only BDT-10000/- 
+								<br>
+								------------------------------------------------------------- </p>
+						<br>
+							<p> The best Ratargul vacation package-2021. 2day & 3night package only BDT-4000/- 
+								<br>
+								----------------------------------------------------------------			</div>
+					<div class="from_part">
+									<h5>Submit form</h5>
+									<br>
+									<br>
+								<p>sing up to our website </p>							
+								<form>
+												<input placeholder="Enter your email address" type="email">
+												<br>				
+												<br>							
+								<input placeholder="Enter your password " type="password">					
+								</form>
+								<br>
+								<br>
+								<a href="#"> Submit</a>
+					</div>
+			</div>
+</div>
+</body>
+</html>
